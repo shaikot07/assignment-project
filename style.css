@@ -20,6 +20,22 @@ body{
       border: none;
       margin-top: 20px;
 }
+.section-heading{
+      color: #272727;
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: 700;
+}
+.discription{
+      color: rgba(39, 39, 39, 0.60);
+      text-align: center;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      width: 50%;
+      margin: 20px auto;
+}
 /* shareed style css end */
 /* header and banner style css start  */
 .header-section{
@@ -28,6 +44,7 @@ body{
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 101px;
 }
 .banner-content{
       max-width: 427;
@@ -52,3 +69,48 @@ body{
       margin-top: 20px;
 }
 /* header and banner style css start  */
+/* featur-flower section style css start */
+.featur-flower{
+      width: 61%;
+      margin: auto;
+      text-align: center;
+      padding-bottom: 30px;
+}
+.featur-flower-container{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 5px;
+}
+.flower-bg{
+      width: 186px;
+      height: 272px;
+      padding: 25px 25px 0 25px;
+      border-radius: 300px 300px 0px 0px;
+      background: rgba(167, 33, 98, 0.15);
+      position: relative;
+      margin-top: 11px;
+}
+.flower-bg-img{
+position: absolute;
+top: 61%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 171px;
+height: 234px;
+      
+}
+.flower-box h5{
+      color: #272727;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      text-decoration-line: underline;
+      margin-top: 14px;
+}
+.bg-color-2{
+      background-color: rgba(5, 151, 160, 0.15);
+}
+.bg-color-3{
+      background-color: rgba(71, 125, 17, 0.15);
+}
+/* featur-flower section style css end */
