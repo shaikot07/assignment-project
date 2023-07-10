@@ -1,3 +1,54 @@
-h1{
-      color: red;
+*{
+      margin: 0;
+      padding: 0;
 }
+.imgg{
+      max-width: 100%;
+}
+body{
+      font-family: 'Lato', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+}
+/* shareed style css start  */
+.btn-primary{
+      padding: 15px 30px;
+      border-radius: 10px;
+      background: #E55473;
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      border: none;
+      margin-top: 20px;
+}
+/* shareed style css end */
+/* header and banner style css start  */
+.header-section{
+      background-color: rgba(229, 84, 115, 0.10);
+      padding: 30px 150px 0px 150px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.banner-content{
+      max-width: 427;
+     
+}
+.banner-title{
+      color: #272727;
+      font-family: Lato;
+      font-size: 40px;
+      font-weight: 700;
+      }
+.banner-pic{
+      width: 400px;
+      height: 500;
+}
+.banner-description{
+      color: rgba(39, 39, 39, 0.60);
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 400;
+      padding-right: 156px;
+      margin-top: 20px;
+}
+/* header and banner style css start  */
