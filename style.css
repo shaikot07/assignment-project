@@ -1,14 +1,14 @@
 *{
       margin: 0;
       padding: 0;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Work Sans', sans-serif;
 }
 .imgg{
       max-width: 100%;
 }
-body{
-      font-family: 'Lato', sans-serif;
-      font-family: 'Work Sans', sans-serif;
-}
+
 /* shareed style css start  */
 .primary-color{
       color: #E55473;
