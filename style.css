@@ -10,6 +10,9 @@ body{
       font-family: 'Work Sans', sans-serif;
 }
 /* shareed style css start  */
+.primary-color{
+      color: #E55473;
+}
 .btn-primary{
       padding: 15px 30px;
       border-radius: 10px;
@@ -80,6 +83,7 @@ body{
       display: flex;
       justify-content: space-evenly;
       gap: 5px;
+      margin-top: 40px;
 }
 .flower-bg{
       width: 186px;
@@ -114,3 +118,29 @@ height: 234px;
       background-color: rgba(71, 125, 17, 0.15);
 }
 /* featur-flower section style css end */
+/* hot-deal section style css start  */
+.hot-deal{
+      background-color: rgba(229, 84, 115, 0.05);
+      height: 400px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px 200px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+}
+.hot-deal-content{
+      max-width: 50%;
+      text-align: center;
+      border:1px solid #272727;
+      padding-left: 20px;
+}
+.hot-deal-content p{
+      color: rgba(39, 39, 39, 0.60);
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 20px;
+      padding: 0 80px;
+}
+/* hot-deal section style css end  */
