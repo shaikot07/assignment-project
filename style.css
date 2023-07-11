@@ -13,6 +13,9 @@ body{
 .primary-color{
       color: #E55473;
 }
+.second-color{
+      color: white;
+}
 .btn-primary{
       padding: 15px 30px;
       border-radius: 10px;
@@ -241,4 +244,21 @@ gap: 7px;
       border-radius: 5px;
       border: none;
       margin-right: 8px;
+}
+/* latest- deals section style end  */
+/* footer section style css start */
+footer{
+      background-color: #111010;
+      text-align: center;
+      padding: 100px 150px;
+      margin-top: 20px;
+}
+footer > p{
+      width: 50%;
+      margin: auto;
+      color: rgba(255, 255, 255, 0.90);
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 15px 15px;
 }
